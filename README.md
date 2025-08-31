@@ -1,2 +1,26 @@
 # inventory-sim-py
-A realistic multi-echelon inventory simulator that models demand forecasting, supply lead times, stock management, and cost dynamics across a three-tier supply chain (supplier → warehouse → factory). Built in Python using numpy, matplotlib. this simulation helps evaluate inventory policies under uncertain demand and supply conditions.
+Key Features
+
+Trended & seasonal demand generation with noise and regime shifts
+
+Single Exponential Smoothing (SES) forecasting with error tracking
+
+Periodic review (R, S) inventory policy with safety stock and MOQ/lot sizing
+
+Stochastic lead times and partial order fulfillment
+
+Backorder handling and working capital tracking
+
+Visual output of:
+
+Demand vs. forecast accuracy
+
+Inventory levels by echelon
+
+Backorders and supplier orders
+
+Holding & backorder costs
+
+Working capital over time
+
+Python (numpy, matplotlib, random, collections.deque)
